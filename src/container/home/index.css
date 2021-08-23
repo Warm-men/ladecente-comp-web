@@ -1,0 +1,89 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100vw;
+}
+
+:root {
+  --swiper-theme-color: #fff;
+}
+
+.headerContainer{
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logoHome {
+  width: 150px;
+  height: auto;
+}
+
+.titleIcon {
+  width: 50%;
+}
+
+
+.footerImg {
+  width: 100%;
+}
+
+.footerBox {
+  box-sizing: content-box;
+  display: flex;
+  width: 60%;
+  padding: 36px 20%;
+  /* margin-top: 20px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerItem a {
+  text-decoration: none;
+}
+
+.footerBox1 {
+  display: flex;
+  width: 100%;
+  /* padding: 20px 10%; */
+  /* margin-top: 20px; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerText {
+  font-size: 10px;
+  color: #333;
+  /* margin-bottom: 6px; */
+}
+a {
+  color: #333;
+}
+
+.swiperWrap {
+  margin: 0px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 50vh; */
+}
+
+.swiperWrapContainer{
+  width: 70%;
+}
+
+.sliderItem{ 
+  height: 100%;
+  width: 100%;
+}
+
+.sliderItemImg {
+  width: 100%;
+  height: auto;
+}

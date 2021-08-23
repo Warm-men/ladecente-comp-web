@@ -1,0 +1,46 @@
+.collectionContainer {
+  width: 100vw;
+  padding-top: 11vh;
+}
+
+.headerContainerFix {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #fff;
+}
+
+.logoHomeCollection {
+  width: 150px;
+  height: auto;
+  
+}
+
+.collectionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.collectionDes {
+  margin-top: 16px;
+  width: 80%;
+  line-height: 22px;
+  color: #000;
+  /* text-align: center; */
+  text-indent: 40px;
+  font-size: 14px;
+}
+
+.collectionImg {
+  width: 90%;
+  margin-bottom: 100px;
+} 
