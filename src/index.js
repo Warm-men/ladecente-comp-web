@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 import Home from './container/home';
-import Collection from './container/collection';
+// import Collection from './container/collection';
+import CollectionNew from './container/collectionNew';
+import About from './container/about';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Route path="/home" component={Home} />
-      <Route path="/collection" component={Collection} />
+      <Route path="/collection" component={CollectionNew} />
+      <Route path="/about" component={About} />
       <Route exact path="/">
         <Home />
       </Route>

@@ -25,9 +25,10 @@ class Collection extends Component {
 
         <div className={'collectionContent'}>
           {params.img.map((item, index) => {
-            return <img src={item} className={'collectionImg'} alt={'img'} />;
+            return <img key={index} src={item} className={'collectionImg'} alt={'img'} />;
           })}
         </div>
+        <div dangerouslySetInnerHTML={{__html: params.footerDesc}} className="footerBox1"></div>
       </div>
     );
   }

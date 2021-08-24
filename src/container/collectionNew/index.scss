@@ -1,0 +1,97 @@
+.collectionContainer {
+  width: 100vw;
+  padding-top: 11vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .collectionDes {
+    margin-top: 16px;
+    text-align: center;
+    line-height: 22px;
+    color: #000;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20%;
+  }
+  
+}
+
+.headerContainerFix {
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #fff;
+  .titleView {
+    margin-top: 16px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+  }
+}
+
+.logoHomeCollection {
+  width: 150px;
+  height: auto;
+  
+}
+
+.collectionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.swiperBox {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 10vh;
+  .titleView {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .collectionContentNew {
+    width: 60%;
+    .sliderItem{ 
+      width: 100%;
+      .sliderItemDiv {
+        padding-bottom: 48px;
+        .collectionImgNew {
+          width: 100%;
+        }
+      }
+      
+    }
+    
+  }
+}
+
+.collectionImg {
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.swiper-container{
+  --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+  --swiper-navigation-color: #000;/* 单独设置按钮颜色 */
+  --swiper-navigation-size: 30px;/* 设置按钮大小 */
+}
+
