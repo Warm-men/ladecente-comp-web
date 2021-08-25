@@ -1,0 +1,205 @@
+.homeContainerApp {
+  position: relative;
+  .headerContainerApp{
+    position: fixed;
+    top: 102px;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: auto;
+    padding: 30px 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+}
+
+:root {
+  --swiper-theme-color: #ff0080;
+}
+
+.swiper-container {
+  --swiper-theme-color: #ff0080;
+}
+
+.headItemApp {
+  height: 36px;
+  font-size: 16px;
+  color: #333;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.menuIconContainerApp {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  height: 102px;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIconApp {
+  width: 30px;
+  height: 28px;
+  position: absolute;
+  top: 34px;
+  left: 20px;
+}
+
+.logoHomeApp {
+  width: 70%;
+}
+
+.titleBoxApp {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.titleIconApp {
+  width: 50%;
+}
+
+.productContainerApp {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.produceItemApp {
+  width: 100%;
+}
+
+.itemBoxApp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.produceImageApp {
+  width: 80%;
+  margin-bottom: 0px;
+}
+
+.itemDesApp {
+  width: 80%;
+  line-height: 20px;
+  color: #333;
+  font-size: 10px;
+  margin-bottom: 24px;
+  font-family: system-ui;
+}
+.produceBoxApp {
+  margin-top: 104px;
+}
+
+.footerImgApp {
+  width: 100%;
+}
+
+.footerBoxApp {
+  display: flex;
+  width: 100vw;
+  padding: 20px 0;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footerTextApp {
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 6px;
+}
+a {
+  color: #333;
+}
+
+.swiperWrapApp {
+  margin: 104px 0 0 0;
+}
+
+.sliderItemApp { 
+  height: calc(90vh - 120px);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.sliderItemImgApp {
+  width: auto;
+  height: 80%;
+}
+
+.itemLabelApp {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 50px;
+  /* left: 100px; */
+}
+
+.activeP {
+  color: #333;
+}
+
+.footerViewApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+  margin-top: 28vh;
+  margin-bottom: 16vh;
+  flex-direction: column;
+  .joinUsViewApp {
+    margin: 16px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .iconViewApp {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .iconImgApp {
+        width: 38px;
+        height: 38px;
+      }
+    }
+  }
+  
+  .miniAppViewApp {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: -50px 0 16 0;
+    display: flex;
+    flex-direction: column;
+    .miniAppQrCodeImgApp {
+      width: 180px;
+    }
+    .miniAppQrCodeDescApp {
+      margin-top: 18px;
+      font-size: 12;
+      color: #000;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  }
+}

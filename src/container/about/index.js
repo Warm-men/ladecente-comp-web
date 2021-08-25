@@ -28,11 +28,6 @@ const JOIN_US_DATA = [
     name: '小红书',
     link: 'https://www.xiaohongshu.com/user/profile/5cadfdf1000000001000c1b9',
   },
-  // {
-  //   id: 'miniApp',
-  //   icon: require('../../res/xiaohongshu.jpg'),
-  //   name: 'LADECENTEOFFICIAL',
-  // },
 ];
 
 class About extends PureComponent {

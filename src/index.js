@@ -6,17 +6,30 @@ import Home from './container/home';
 // import Collection from './container/collection';
 import CollectionNew from './container/collectionNew';
 import About from './container/about';
+import AppHome from './containerApp/home';
+console.log(window.screen.width);
+
+const windowWidth = window.screen.width;
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Route path="/home" component={Home} />
-      <Route path="/collection" component={CollectionNew} />
-      <Route path="/about" component={About} />
-      <Route exact path="/">
-        <Home />
-      </Route>
-    </Router>
+    {windowWidth > 720 ? (
+      <Router>
+        <Route path="/home" component={Home} />
+        <Route path="/collection" component={CollectionNew} />
+        <Route path="/about" component={About} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Router>
+    ) : (
+      <Router>
+        <Route path="/home" component={AppHome} />
+        <Route exact path="/">
+          <AppHome />
+        </Route>
+      </Router>
+    )}
   </React.StrictMode>,
   document.getElementById('root')
 );
