@@ -43,19 +43,19 @@ const banners = [
 
 const PRODUCES0 = {
   title: 'L7FZ特供系列',
-  des: 'LADECENTE 特供系列，作为不同应用场景的特定人群而定制的服装供应，涵盖了机构，企业，以及特殊人群；品牌理念是时尚作业，舒适着衣。运用大量环保面料以及服务闭环，定位企业形象供应商，规定购买数量，80件起开售。',
+  des: 'L7FZ特供系列，作为不同应用场景的特定人群而定制的服装供应，涵盖了机构，企业，以及特殊人群；品牌理念是时尚作业，舒适着衣。运用大量环保面料以及服务闭环，定位企业形象供应商，规定购买数量，80件起开售。',
   img: [c1],
 };
 
 const PRODUCES1 = {
   title: 'LADECENTE复兴运动系列',
-  des: 'LADECENTE 复兴运动系列，灵感源自对当代宅文化的观察，试图用复古时兴的方式倡导Fit辣妹的概念，唤起当代人对时尚健康的意识。“接受自己，热爱自己。”',
+  des: 'LADECENTE复兴运动系列，灵感源自对当代宅文化的观察，试图用复古时兴的方式倡导Fit辣妹的概念，唤起当代人对时尚健康的意识。“接受自己，热爱自己。”',
   img: [c2, c3, c5, c6],
 };
 
 const PRODUCES2 = {
   title: 'Life Depth配饰系列',
-  des: 'Life Depth 配饰系列，敬请期待！',
+  des: 'Life Depth配饰系列，敬请期待！',
   img: [c4],
 };
 
@@ -104,7 +104,7 @@ export default class Home extends Component {
     return (
       <div className={'footerBox1'}>
         <div className={'footerText'}>
-          @2021 紫钧建筑设计（北京）有限公司 <a href="">京ICP备2021023278号</a>
+          @2021 紫钧建筑设计（北京）有限公司 京ICP备2021023278号
         </div>
         <div className={'footerText'}>深圳市前海深港合作区前湾一路1号A栋</div>
       </div>

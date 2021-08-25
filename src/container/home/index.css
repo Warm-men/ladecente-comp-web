@@ -37,7 +37,6 @@
   display: flex;
   width: 60%;
   padding: 36px 20%;
-  /* margin-top: 20px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -52,12 +51,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .footerText {
   font-size: 10px;
   color: #333;
-  /* margin-bottom: 6px; */
 }
 a {
   color: #333;
