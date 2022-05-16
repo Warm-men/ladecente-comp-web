@@ -1,6 +1,7 @@
 import { PureComponent } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
+import moment from 'moment';
 import './index.css';
 import banner from '../../res/home_main.png';
 import homeBanner0 from '../../res/homeBanner0.gif';
@@ -13,6 +14,7 @@ import a4 from '../../res/a4.jpg';
 import a5 from '../../res/a5.png';
 import a6 from '../../res/a6.png';
 import logo1 from '../../res/logo1.png';
+const Today = `${moment().format('YYYY/MM/DD')}`;
 
 const menuData = [
 	{
@@ -58,11 +60,12 @@ const collection = [
 export default class Home extends PureComponent {
 	constructor(props) {
 		super(props);
+		const isShowed = global.localStorage.getItem(`${Today}:showGif`);
 		this.state = {
 			showMenu: false,
 			showLogo: false,
 			collection: collection,
-			showGif: true,
+			showGif: isShowed === '1' ? false : true,
 		};
 	}
 
@@ -70,6 +73,7 @@ export default class Home extends PureComponent {
 		window.addEventListener('scroll', this.handleScroll);
 		this.timer = setTimeout(() => {
 			this.setState({ showGif: false });
+			global.localStorage.setItem(`${Today}:showGif`, '1');
 		}, 2500);
 	}
 
